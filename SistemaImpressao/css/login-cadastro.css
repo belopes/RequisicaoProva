@@ -1,0 +1,53 @@
+.titulo-sistema-login {
+    font-size:40px;
+    background-color:  #F68228;
+    color: #272727;
+    text-align: center;
+    font-weight: bolder;
+    font-family:"Public Sans", sans-serif;
+    padding: 25px;
+    margin: 0px;
+    border-top: 20px solid #D85E00;
+    text-transform: uppercase;
+}
+body {
+    background-image: url("../Imagens/foto-fundo.png");
+    background-position:initial ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nav-tabs>li.active>a {
+    background-color: #F68228;
+    color: #ffff;
+    border-color: #F68228;
+    border-radius: 7px;
+}
+#login-container {
+    background-color: #272727;
+    width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 30px;
+    margin-top: 15vh;
+    border-radius: 20px;
+    text-align: center;
+}
+form {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+label, input {
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+label {
+    font-weight: bold;
+    color: #ffff;
+}
+.btn {
+    text-align: center;
+    background-color: #F68228;
+    cursor: pointer;
+    border-color: #F68228;
+}

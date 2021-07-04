@@ -20,11 +20,38 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
                 <div class="navbar-nav">
                     <a class="nav-item nav-link" id="home-menu">REQUISIÇÃO DE PROVAS</a>
+                    &nbsp;&nbsp;&nbsp;&nbsp;
                     <a class="nav-item nav-link" id="home-menu">STATUS DA REQUISIÇÃO</a>
+                </div>
+                <div style="text-align: right">
+                    <a class="nav-item nav-link nome-professor" id="home-menu">Fulano da Silva</a><br/>
+                    <a href="#">Sair</a>
                 </div>
             </div>
         </nav>
     </header>
+
+    <form class="formulario">
+        <div class="campos-superior">
+            <label>Cursos</label>
+                <select class="selecao">
+                    <option>Selecione o Curso</option>
+                    <option value="#">Sistemas de Informação</option>
+                </select>
+
+            <label>Diciplina</label>
+                <select class="selecao">
+                    <option>Selecione a Diciplina</option>
+                    <option value="#">Sistemas Operacionais</option>
+                </select>
+                
+            <label>Anexar Prova</label>
+                <input class="anexo" type="file">
+        </div>
+    </form>
+
+
+
 </body>
 
 </html>

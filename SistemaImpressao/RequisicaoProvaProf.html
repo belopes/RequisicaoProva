@@ -33,25 +33,32 @@
 
     <form class="formulario">
         <div class="campos-superior">
-            <label>Cursos</label>
+            <label class="titulo-form">Cursos</label>
                 <select class="selecao">
                     <option>Selecione o Curso</option>
                     <option value="#">Sistemas de Informação</option>
                 </select>
 
-            <label>Diciplina</label>
+            <label class="titulo-form">Diciplina</label>
                 <select class="selecao">
                     <option>Selecione a Diciplina</option>
                     <option value="#">Sistemas Operacionais</option>
                 </select>
                 
-            <label>Anexar Prova</label>
+            <label class="titulo-form">Anexar Prova</label>
                 <input class="anexo" type="file">
         </div>
     </form>
-
-
-
+    <input class="form-control" type="text" placeholder="Observação:">
+    <input class="form-control qtde" style="position: relative; bottom: 483px; right: -400px; width: 150px;" type="text" placeholder="Qtde:">
+    <div class="form-check" style="position: relative; bottom: 515px; right: -600px;">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+        <label class="form-check-label" for="flexCheckDefault">
+          Frente e verso
+        </label>
+      </div>
+    <button type="button" class="btn btn-secondary" style="position: relative; bottom: 543px; right: -1200px;">Enviar Solicitação
+    <img src="./Imagens/enviar.png" alt=""></button>
 </body>
 
 </html>
